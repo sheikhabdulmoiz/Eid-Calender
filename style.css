@@ -1,0 +1,241 @@
+@font-face {
+  font-family: arima;
+  src: url(fonts/Arima-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: orbitron;
+  src: url(https://fonts.googleapis.com/css2?family=Orbitron&display=swap);
+}
+
+body {
+  background-image: url("images/3.png");
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0px;
+  position: relative;
+}
+
+
+.image1 {
+  /* background-color: rgba(32, 198, 46, 0.5); */
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  align-items: baseline;
+ 
+}
+
+.img1 {
+  width: 270px;
+  box-shadow: 1px 1px 10px #612e36;
+}
+
+#image2{
+  position: absolute;
+  top: 110px;
+ right: 140px;
+  margin: 0px auto;
+  opacity: .4;
+
+}
+#image3{
+  position: absolute;
+  top: 110px;
+ left: 90px;
+ opacity: .4;
+  margin: 0px auto;
+}
+
+
+.main1 {
+  /* background-color: rgb(43, 231, 235); */
+  margin-top: 50px;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main11 {
+  /* background-color: rgb(9, 140, 81); */
+  height: 65px;
+  width: 300px;
+}
+
+.main12 {
+  /* background-color: rgba(28, 169, 105); */
+  height: 65px;
+  width: 300px;
+}
+
+.main13 {
+  /* background-color: rgba(28, 169, 105); */
+  height: 65px;
+  width: 300px;
+}
+
+.main2 {
+  /* background-color: rgb(42, 128, 129); */
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.main21 {
+  background-color: rgba(18, 14, 2, 0.5);
+  height: 65px;
+  width: 300px;
+  border-top: 1px solid white;
+}
+
+.main22 {
+  background-color: rgba(18, 14, 2, 0.5);
+  height: 65px;
+  width: 300px;
+  border-top: 1px solid white;
+}
+
+.main23 {
+  background-color: rgba(18, 14, 2, 0.5);
+  height: 65px;
+  width: 300px;
+  border-top: 1px solid white;
+}
+
+
+.main3 {
+    /* background-color: rgb(42, 128, 129); */
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  
+  .main31 {
+    background-color: rgba(18, 14, 2, 0.5);
+    height: 65px;
+    width: 300px;
+    border-top: 1px solid white;
+
+  }
+  
+  .main32 {
+    background-color: rgba(18, 14, 2, 0.5);
+    height: 65px;
+    width: 300px;
+    border-top: 1px solid white;
+  }
+  
+  .main33 {
+    background-color: rgba(18, 14, 2, 0.5);
+    height: 65px;
+    width: 300px;
+    border-top: 1px solid white;
+  }
+
+  .main4 {
+    /* background-color: rgb(42, 128, 129); */
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  
+  .main41 {
+    background-color: rgba(18, 14, 2, 0.5);
+    height: 65px;
+    width: 300px;
+    border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+  }
+  
+  .main42 {
+    background-color: rgba(18, 14, 2, 0.5);
+    height: 65px;
+    width: 300px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  
+  .main43 {
+    background-color: rgba(18, 14, 2, 0.5);
+    height: 65px;
+    width: 300px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+
+
+
+h3 {
+  font-family: arima;
+  color: white;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 15px;
+
+}
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(173, 186, 189);
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.hf {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(173, 186, 189);
+  text-align: center;
+  padding-top: 20px;
+  
+  }
+
+.hs {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(173, 186, 189);
+  text-align: center;
+  padding-top: 20px;
+  
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 930px) {
+    #image2,#image3{
+      display: none;
+    }
+
+    .main13,.main23,.main33,.main43{
+      display: none;
+
+    }
+    
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 620px) {
+    .main12,.main22,.main32,.main42{
+      display: none;
+
+    }
+  }
+
+ /* @media only screen and (min-width: 0px) and (max-width: 620px) {
+    .main12{
+     padding-top: 250px;
+    }
+    /* .main22{
+     padding-top: 400px;
+    }
+    .main32{
+     padding-top: 500px;
+    }
+    .main42{
+     padding-top: 600px;
+    } 
+  }*/
